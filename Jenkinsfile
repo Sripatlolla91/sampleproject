@@ -8,5 +8,11 @@ pipeline {
                 echo "'Welcome to Jenkins training"
             }
         }
+        stage('Test') {
+            steps {
+                echo 'Testing started'
+                echo "'Testing finsihed"
+            }
+        }
     }
 }
