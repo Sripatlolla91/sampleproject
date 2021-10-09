@@ -5,7 +5,7 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Hello World'
-                echo "'Welcome to Jenkins training"
+                echo "'Welcome to Jenkins training from cloud"
             }
         }
         stage('Test') {
